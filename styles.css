@@ -197,3 +197,48 @@ footer {
   font-size: 40px;
   color: #FFF1F3;
 }
+.footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 28px 0;
+  border-bottom: 1px solid #4A1A24;
+}
+
+.footer-main > div {
+  margin: 20px 0;
+}
+
+.footer-brand p {
+  max-width: 320px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #F0C3CB;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 240px;
+  color: #FFF1F3;
+}
+
+.footer-links a {
+  width: 120px;
+  margin-bottom: 12px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 28px;
+  font-size: 14px;
+  color: #F0C3CB;
+  opacity: 0.8;
+}
+
+.footer-bottom p {
+  margin: 4px 0;
+}
