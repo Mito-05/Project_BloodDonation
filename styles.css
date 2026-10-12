@@ -111,3 +111,50 @@ a {
   max-width: 820px;
   line-height: 1.4;
 }
+.three-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.three-columns > div {
+  width: 31%;
+  min-width: 280px;
+  margin-bottom: 24px;
+}
+
+.button-outline-dark {
+  display: block;
+  text-align: center;
+  border: 1.5px solid #25090E;
+  color: #25090E;
+  font-weight: 500;
+  padding: 14px 0;
+  border-radius: 6px;
+}
+
+.donation-card {
+  box-sizing: border-box;
+  background-color: #FBF7F7;
+  border: 1px solid #EBDADD;
+  border-radius: 8px;
+  padding: 30px 23px 23px 23px;
+}
+
+.donation-card .drop {
+  width: 30px;
+  height: 30px;
+  margin: 8px 0 20px 8px;
+  background-color: #B0102C;
+}
+
+.donation-card h3 {
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+
+.donation-card p {
+  color: #5A3940;
+  line-height: 1.1;
+  margin: 0 0 24px 0;
+}
