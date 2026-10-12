@@ -41,3 +41,39 @@ a {
   font-size: 20px;
   color: #FFF1F3;
 }
+.drop {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  background-color: #D6243E;
+  border-radius: 0 50% 50% 50%;
+  transform: rotate(45deg);
+}
+
+.nav-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-links a {
+  display: inline-block;
+  margin: 4px 36px 4px 0;
+  font-weight: 500;
+  color: #F0C3CB;
+}
+
+.nav-links a.active {
+  color: #FFF1F3;
+  border-bottom: 2px solid #FFF1F3;
+  padding-bottom: 4px;
+}
+
+.button-nav {
+  background-color: #B0102C;
+  color: white;
+  font-weight: 500;
+  padding: 10px 22px;
+  border-radius: 6px;
+}
