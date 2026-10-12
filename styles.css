@@ -5,3 +5,14 @@ body {
   color: #25090E;
   background-color: #FBF7F7;
 }
+h1,
+h2,
+h3 {
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
