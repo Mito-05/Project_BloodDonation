@@ -1,0 +1,89 @@
+
+.two-columns,
+.four-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.two-columns > div {
+  width: 48%;
+  min-width: 320px;
+  margin-bottom: 24px;
+}
+
+.four-columns > div {
+  width: 23%;
+  min-width: 240px;
+  margin-bottom: 24px;
+}
+
+.donation-card .drop.plasma {
+  background-color: #2F5F8A;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  border-bottom: 1px solid #EBDADD;
+  font-weight: 500;
+}
+
+.donation-card .button-outline-dark {
+  margin-top: 34px;
+}
+
+.label {
+  min-width: 146px;
+  color: #86666C;
+}
+
+.part-card {
+  box-sizing: border-box;
+  background-color: #FBF7F7;
+  border: 1px solid #EBDADD;
+  border-radius: 8px;
+  padding: 23px;
+  min-height: 300px;
+}
+
+.part-card p {
+  color: #5A3940;
+  line-height: 1.1;
+}
+
+.part-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.part-top h3 {
+  font-size: 28px;
+  margin-left: 20px;
+}
+
+.circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+}
+
+.circle.blue {
+  background-color: #2F5F8A;
+}
+
+.circle.yellow {
+  background-color: #FCF0D4;
+}
+
+.circle.red {
+  background-color: #B0102C;
+}
+
+.part-card .part-data {
+  color: #2F5F8A;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
