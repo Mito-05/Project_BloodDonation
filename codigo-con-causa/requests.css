@@ -1,0 +1,101 @@
+
+.request-card {
+  box-sizing: border-box;
+  background-color: #FBF7F7;
+  border: 1px solid #EBDADD;
+  border-radius: 8px;
+  padding: 21px 23px 23px 23px;
+}
+
+.request-card:hover {
+  border-color: #25090E;
+}
+
+.request-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 20px;
+  border-radius: 4px;
+}
+
+.tag-blood {
+  background-color: #FBE4E8;
+  color: #B0102C;
+}
+
+.tag-plasma {
+  background-color: #E4EDF5;
+  color: #2F5F8A;
+}
+
+.tag-urgent {
+  background-color: #FDEBDD;
+  color: #B93C0A;
+  padding: 8px 20px;
+}
+
+.tag-critical {
+  background-color: #B0102C;
+  color: #FFFBFA;
+  padding: 8px 20px;
+}
+
+.tag-normal {
+  background-color: #DDF2EE;
+  color: #0E7A70;
+  padding: 8px 20px;
+}
+
+.request-card h3 {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 0 16px 0;
+}
+
+.place {
+  color: #5A3940;
+  font-weight: 500;
+  margin: 0 0 14px 0;
+}
+
+.chips {
+  margin-bottom: 30px;
+}
+
+.chip {
+  display: inline-block;
+  background-color: #FBE4E8;
+  border: 1px solid #E6A9B3;
+  color: #B0102C;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.bar {
+  height: 8px;
+  background-color: #EBDADD;
+}
+
+.bar-fill {
+  height: 8px;
+  background-color: #25090E;
+}
+
+.request-numbers {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5A3940;
+  margin: 10px 0 18px 0;
+}
