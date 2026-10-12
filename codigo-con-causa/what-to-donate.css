@@ -87,3 +87,102 @@
   font-weight: 500;
   margin-bottom: 24px;
 }
+
+
+table {
+  width: 100%;
+  border: 1px solid #EBDADD;
+  border-collapse: collapse;
+  background-color: #FFFBFA;
+}
+
+th {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5A3940;
+  background-color: #FBF7F7;
+  padding: 12px 24px;
+  border-bottom: 1px solid #EBDADD;
+}
+
+td {
+  font-size: 18px;
+  padding: 14px 24px;
+  border-bottom: 1px solid #EBDADD;
+}
+
+td.group {
+  width: 20%;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #B0102C;
+}
+
+.note {
+  font-size: 14px;
+  font-weight: 500;
+  color: #86666C;
+  margin: 30px 0 0 0;
+}
+
+.step {
+  box-sizing: border-box;
+  background-color: #FBF7F7;
+  border: 1px solid #EBDADD;
+  border-radius: 8px;
+  padding: 15px 23px 23px 23px;
+  min-height: 280px;
+}
+
+.step-number {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  margin: 0 0 18px 0;
+}
+
+.step h3 {
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+.step p {
+  color: #5A3940;
+  line-height: 1.1;
+}
+
+.step .step-time {
+  color: #2F5F8A;
+  font-weight: 500;
+  margin: 0 0 18px 0;
+}
+
+.requirements {
+  background-color: #FFFBFA;
+  border: 1px solid #EBDADD;
+  border-radius: 8px;
+  padding: 31px;
+  margin-top: 40px;
+}
+
+.requirements h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.requirements-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.requirements-grid .row {
+  width: 48%;
+  min-width: 250px;
+}
+
+.requirements .note {
+  margin-top: 28px;
+}
