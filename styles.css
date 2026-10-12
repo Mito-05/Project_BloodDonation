@@ -77,3 +77,37 @@ a {
   padding: 10px 22px;
   border-radius: 6px;
 }
+.section {
+  padding: 90px 3.9% 100px 3.9%;
+}
+
+.pink {
+  background-color: #FBE4E8;
+}
+
+.white {
+  background-color: #FFFBFA;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 44px;
+  margin-bottom: 14px;
+}
+
+.line {
+  width: 56px;
+  height: 6px;
+  margin-bottom: 30px;
+  background-color: #25090E;
+  border-radius: 3px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: #5A3940;
+  margin: 0 0 70px 0;
+  max-width: 820px;
+  line-height: 1.4;
+}
