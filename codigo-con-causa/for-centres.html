@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>redLatido - Para centros</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&family=Red+Hat+Text:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="for-centres.css">
+  <link rel="icon" type="image/svg+xml" href="files/favicon.svg">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="index.html"><span class="drop"></span>redLatido</a>
+      <div class="nav-right">
+        <div class="nav-links">
+          <a href="index.html">Inicio</a>
+          <a href="what-to-donate.html">Qué donar</a>
+          <a href="requests.html">Solicitudes</a>
+          <a class="active" href="for-centres.html">Para centros</a>
+        </div>
+        <a class="button-nav" href="requests.html">Donar ahora</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h2 class="title">Publica una solicitud de donantes</h2>
+        <div class="line"></div>
+        <p class="subtitle">Indica qué necesitáis y para cuándo. La solicitud se publica en la página de Solicitudes.</p>
+        <div class="center-page">
+          <form class="form" action="requests.html">
+            <h3>El centro</h3>
+            <label for="name">Nombre del centro</label>
+            <input class="field" type="text" id="name" name="name" placeholder="Hospital Universitario...">
+            <div class="form-two">
+              <div>
+                <label for="center-type">Tipo de centro</label>
+                <select class="field" id="center-type" name="center-type">
+                  <option>Hospital</option>
+                  <option>Centro de transfusión</option>
+                  <option>Centro de salud</option>
+                </select>
+              </div>
+              <div>
+                <label for="city">Ciudad</label>
+                <input class="field" type="text" id="city" name="city" placeholder="Sevilla">
+              </div>
+            </div>
+            <label for="address">Dirección donde se dona</label>
+            <input class="field" type="text" id="address" name="address" placeholder="Calle, número, planta o unidad">
+
+            <h3 class="second">Qué necesitáis</h3>
+            <p class="form-label">Tipo de donación</p>
+            <div class="options">
+              <input type="radio" id="blood" name="donation" checked>
+              <label for="blood">Sangre total</label>
+              <input type="radio" id="plasma" name="donation">
+              <label for="plasma">Plasma</label>
+            </div>
+            <p class="form-label">Grupos sanguíneos que buscáis</p>
+            <div class="options">
+              <input type="checkbox" id="g-all" name="group" checked>
+              <label for="g-all">Todos</label>
+              <input type="checkbox" id="g-Ominus" name="group">
+              <label for="g-Ominus">O-</label>
+              <input type="checkbox" id="g-Oplus" name="group">
+              <label for="g-Oplus">O+</label>
+              <input type="checkbox" id="g-Aminus" name="group">
+              <label for="g-Aminus">A-</label>
+              <input type="checkbox" id="g-Aplus" name="group">
+              <label for="g-Aplus">A+</label>
+              <input type="checkbox" id="g-Bminus" name="group">
+              <label for="g-Bminus">B-</label>
+              <input type="checkbox" id="g-Bplus" name="group">
+              <label for="g-Bplus">B+</label>
+              <input type="checkbox" id="g-ABminus" name="group">
+              <label for="g-ABminus">AB-</label>
+              <input type="checkbox" id="g-ABplus" name="group">
+              <label for="g-ABplus">AB+</label>
+            </div>
+            <p class="form-label">Urgencia</p>
+            <div class="options">
+              <input type="radio" id="normal" name="urgency">
+              <label for="normal">Normal</label>
+              <input type="radio" id="urgent" name="urgency">
+              <label for="urgent">Urgente</label>
+              <input type="radio" id="critical" name="urgency" checked>
+              <label for="critical">Crítica</label>
+            </div>
+            <div class="form-two">
+              <div>
+                <label for="donors">Donantes necesarios</label>
+                <input class="field" type="number" id="donors" name="donors" placeholder="20">
+              </div>
+              <div>
+                <label for="deadline">Fecha límite</label>
+                <input class="field" type="text" id="deadline" name="deadline" placeholder="dd/mm/aaaa">
+              </div>
+            </div>
+            <button type="submit">Publicar solicitud</button>
+          </form>
+
+          <div class="how">
+            <h3>¿Cómo funciona?</h3>
+            <p>1. Rellenas el formulario con lo que necesitáis.</p>
+            <p>2. La solicitud se publica en la página de Solicitudes.</p>
+            <p>3. Los donantes compatibles la miran y, si pueden, van a vuestro centro.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="emergency">
+      <div>
+        <h2>¿Es una emergencia?</h2>
+        <p>redLatido sirve para donar con calma, no para urgencias. Si alguien está en peligro, llama primero.</p>
+      </div>
+      <p class="phone">Llama al 112</p>
+    </div>
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="logo" href="index.html"><span class="drop"></span>redLatido</a>
+        <p>Web para conectar hospitales que necesitan sangre con personas que pueden donar.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="what-to-donate.html">Qué donar</a>
+        <a href="requests.html">Solicitudes</a>
+        <a href="for-centres.html">Para centros</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 redLatido · Hecho en la Tierra por Brandon, Manuel y Nacho</p>
+      <p>Aviso legal · Privacidad · Cookies</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,103 @@
+.center-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.form {
+  box-sizing: border-box;
+  flex: 1 1 320px;
+  max-width: 860px;
+  background-color: #FFFBFA;
+  border: 1px solid #EBDADD;
+  border-radius: 8px;
+  padding: 27px 31px 40px 31px;
+}
+
+.form h3 {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+}
+
+.form label,
+.form-label {
+  display: block;
+  font-weight: 500;
+  color: #5A3940;
+  margin: 18px 0 9px 0;
+}
+
+.field {
+  box-sizing: border-box;
+  width: 100%;
+  height: 48px;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  color: #25090E;
+  background-color: #FFFBFA;
+  border: 1px solid #D8BCC2;
+  border-radius: 6px;
+  padding: 0 16px;
+}
+
+.form-two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-two div {
+  width: 48%;
+  min-width: 200px;
+}
+
+.form h3.second {
+  margin-top: 40px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form .options label {
+  margin: 6px 22px 6px 6px;
+  font-weight: 400;
+  color: #25090E;
+}
+
+.form button {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFBFA;
+  background-color: #B0102C;
+  border: none;
+  border-radius: 6px;
+  width: 300px;
+  max-width: 100%;
+  height: 56px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.how {
+  box-sizing: border-box;
+  flex: 1 1 280px;
+  max-width: 428px;
+  padding: 0 28px;
+}
+
+.how h3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.how p {
+  color: #5A3940;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 40px 0;
+}
