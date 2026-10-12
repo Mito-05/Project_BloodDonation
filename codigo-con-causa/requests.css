@@ -58,3 +58,44 @@
   font-size: 20px;
   margin: 20px 0 16px 0;
 }
+
+.place {
+  color: #5A3940;
+  font-weight: 500;
+  margin: 0 0 14px 0;
+}
+
+.chips {
+  margin-bottom: 30px;
+}
+
+.chip {
+  display: inline-block;
+  background-color: #FBE4E8;
+  border: 1px solid #E6A9B3;
+  color: #B0102C;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.bar {
+  height: 8px;
+  background-color: #EBDADD;
+}
+
+.bar-fill {
+  height: 8px;
+  background-color: #25090E;
+}
+
+.request-numbers {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5A3940;
+  margin: 10px 0 18px 0;
+}
