@@ -2,6 +2,8 @@
 
 redLatido is a static website made for the class project "Código con causa" (2nd year of DAW, CEI, 2026-2027). The topic is voluntary donations: medical centres publish the blood or plasma they need, and people can see the requests and go donate if they can.
 
+Live site: https://project-blooddonation.vercel.app
+
 The texts of the website are in Spanish. The code and the file names are in English.
 
 ## Pages
