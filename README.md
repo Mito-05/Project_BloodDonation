@@ -1,47 +1,56 @@
-# redLatido 🩸
+# redLatido
 
-**redLatido** is a landing page designed to connect hospitals and blood transfusion centers with blood and plasma donors. It allows users to view nearby urgent donation requests and provides a channel for healthcare centers to publish their needs in real time.
+redLatido is a static website made for the class project "Código con causa" (2nd year of DAW, CEI, 2026-2027). The topic is voluntary donations: medical centres publish the blood or plasma they need, and people can see the requests and go donate if they can.
 
-## 🚀 Page Structure
+The texts of the website are in Spanish. The code and the file names are in English.
 
-* **Home (`index.html`):** Main presentation page featuring calls to action and interactive 3D flip cards highlighting key reasons to donate.
+## Pages
 
-* **What to Donate (`what-to-donate.html`):** Information guide explaining the differences between whole blood and plasma, the lab separation process, a blood type compatibility table, and donor requirements.
+- `index.html` and `index.css`: home page, with the 4 flip cards that turn on hover or with the keyboard.
+- `what-to-donate.html` and `what-to-donate.css`: what can be donated (blood and plasma) and how the donation day goes.
+- `requests.html` and `requests.css`: example requests from medical centres, with a "Cómo llegar" button that opens Google Maps.
+- `for-centres.html` and `for-centres.css`: form where a centre can publish a request.
+- `styles.css`: styles shared by all pages (navbar, footer, buttons, titles and sections). Each page loads it first and then its own CSS.
 
-* **Requests (`requests.html`):** List of active hospital requests showing urgency levels (*Critical*, *Urgent*, *Normal*), current donor progress, and direct links to Google Maps.
-
-* **For Centers (`for-centres.html`):** A form for medical personnel to publish new donation requests by specifying required blood types, urgency level, donor targets, and deadlines.
-
-## 🛠️ Tech Stack
-
-* **HTML5:** Semantic structure and markup.
-
-* **CSS3:** Responsive layout using Flexbox and CSS Grid, custom styles, and 3D transform animations.
-
-* **Google Fonts:** *Red Hat Display* and *Red Hat Text* typography.
-
-## 📁 File Structure
+## Folder structure
 
 ```
-redLatido/
-├── index.html           # Home page
-├── index.css            # Home page styles & 3D cards logic
-├── what-to-donate.html  # Guide page
-├── what-to-donate.css   # Guide & compatibility table styles
-├── requests.html        # Active requests page
-├── requests.css        # Request card styles
-├── for-centres.html     # Center form page
-├── for-centres.css      # Form styles
-├── styles.css           # Global styles (Navbar, Footer, Base layout)
-└── README.md            # Project documentation
+codigo-con-causa/
+  index.html
+  what-to-donate.html
+  requests.html
+  for-centres.html
+  styles.css
+  index.css
+  what-to-donate.css
+  requests.css
+  for-centres.css
+  files/
+    favicon.svg
+  README.md
 ```
 
-## 💻 How to Run
+## How to open it
 
-To view the project locally, simply open `index.html` in any modern web browser.
+There is nothing to install. Download or clone the repository and open `codigo-con-causa/index.html` in the browser. The navbar links go to the other pages.
 
-## 👥 Authors
+The photos are loaded from Cloudinary with their URL, so an internet connection is needed to see them. The only local file in `files/` is the tab icon.
 
-* **Manuel**
-* **Nacho**
-* **Brandon**
+## What we used
+
+- HTML5 with semantic tags (header, nav, main, section, footer), `lang="es"` and `alt` text in all images.
+- CSS3 with Flexbox for the layouts and 3D transforms for the flip cards. There is no JavaScript.
+- Google Fonts: Red Hat Display for titles and Red Hat Text for the rest.
+- Figma for the design, Trello for the tasks and sprints, and GitHub for the code, with one branch per part and pull requests to `main`.
+
+## Notes
+
+The data of the requests and the medical information are examples written by hand in the HTML.
+
+## Photos
+
+Photos by National Cancer Institute, LuAnn Hunt, Cherisse Jane Quinico, Nguyễn Hiệp, Olga Kononenko, CDC, YANGHONG YU and Tim Marshall on Unsplash.
+
+## Team
+
+Brandon, Manuel and Nacho.
